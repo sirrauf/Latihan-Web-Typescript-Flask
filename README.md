@@ -1,6 +1,9 @@
 # Latihan Web Typescript Flask
 Latihan front end menggunakan Typescript dan backend menggunakan web framework Flask
 
+![Hasil tampilan](https://github.com/sirrauf/Latihan-Web-Typescript-Flask/blob/projects/Hasil%20Tampilan.png?raw=true)
+
+
 # Download project:
 1.[Pergi ke Branch Projects](https://github.com/sirrauf/Latihan-Web-Typescript-Flask/tree/projects)
 
