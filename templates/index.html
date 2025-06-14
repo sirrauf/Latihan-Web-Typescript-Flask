@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Login/Register</title>
+  <link rel="stylesheet" href="/static/css/style.css" />
+  <script src="/static/app.js" defer></script>
+</head>
+<body>
+  <div class="container">
+    <h2>Register</h2>
+    <input type="text" id="rname" placeholder="Nama Lengkap" />
+    <input type="text" id="ralamat" placeholder="Alamat" />
+    <input type="email" id="remail" placeholder="Email" />
+    <input type="password" id="rpassword" placeholder="Password" />
+    <select id="rrole">
+      <option>User</option>
+      <option>Admin</option>
+    </select>
+    <button onclick="register()">Register</button>
+
+    <h2>Login</h2>
+    <input type="email" id="lemail" placeholder="Email" />
+    <input type="password" id="lpassword" placeholder="Password" />
+    <button onclick="login()">Login</button>
+
+    <div id="dashboard" class="dashboard hidden">
+      <h3>Dashboard</h3>
+      <p id="userinfo"></p>
+      <button onclick="switchRole()">Switch Role</button>
+    </div>
+  </div>
+</body>
+</html>
