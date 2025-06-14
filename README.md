@@ -1,6 +1,10 @@
 # Latihan Web Typescript Flask
 Latihan front end menggunakan Typescript dan backend menggunakan web framework Flask
 
+# Download project:
+1.[Pergi ke Branch Projects](https://github.com/sirrauf/Latihan-Web-Typescript-Flask/tree/projects)
+
+
 # Cara Run
 1. Buka Command Prompt,kemudian ketik tsc.
 2. Buka Command Prompt,kemudian ketik cd latihan-typescript-flask-Env/Scripts,setelah itu ketik activate.bat
